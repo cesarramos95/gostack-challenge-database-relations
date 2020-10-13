@@ -20,7 +20,7 @@ export default class AddProductIdToOrdersProducts1602501858977
     await queryRunner.createForeignKey(
       'orders_products',
       new TableForeignKey({
-        name: 'OrdersProducts',
+        name: 'OrdersProduct',
         columnNames: ['product_id'],
         referencedColumnNames: ['id'],
         referencedTableName: 'products',
